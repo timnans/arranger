@@ -16,7 +16,6 @@ class Arranger
 
 
     def move_images
-        sleep 5
     images = Dir.glob("*.{jpg,jpeg}")
      images.each do  |image|
         if check_if_file_exist_in_path?(image, './Images') 
